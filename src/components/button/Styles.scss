@@ -15,9 +15,4 @@
   &--inactive {
     background-color: $elephant-paw;
   }
-
-  @media only screen and (max-width: $mobile) {
-    width: 100%;
-    padding: 0 0;
-  }
 }

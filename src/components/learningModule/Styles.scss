@@ -51,8 +51,10 @@
 
   &__submitButtonContainer {
     height: 50px;
-    .submitButton {
-      float: right;
+    @media only screen and (min-width: $mobile) {
+      .submitButton {
+        float: right;
+      }
     }
   }
 }
